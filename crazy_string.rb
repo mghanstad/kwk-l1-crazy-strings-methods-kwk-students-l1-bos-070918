@@ -1,5 +1,5 @@
-def crazy_strings("Hello" , "Friends")
-Hello = "Hello".reverse.upcase
-Friends = "Friends".swapcase.gsub("s","z")
+def crazy_strings("a" , "b")
+a.reverse.upcase + " " + b.swapcase.gsub("s","z")
 end
-puts crazy_strings
+
+#puts crazy_strings
